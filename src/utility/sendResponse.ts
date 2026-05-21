@@ -1,23 +1,14 @@
 import type { Response } from "express";
 
-interface IApiResponse<T> {
-  success: boolean;
-  statusCode: number;
-  message?: string;
-  data?: T;
-  errors?: string | string[];
-  stack?: string;
-}
-
-export const sendResponse = <T>(
+export const sendResponse = (
   res: Response,
-  payload: IApiResponse<T>,
+  statusCode: number,
+  message: string,
+  data?: unknown,
 ): void => {
-  res.status(payload.statusCode).json({
-    success: payload.success,
-    message: payload.message,
-    data: payload.data,
-    errors: payload.errors,
-    stack: payload.stack,
+  res.status(statusCode).json({
+    success: statusCode < 400, // true if status < 400, false otherwise
+    message,
+    data,
   });
 };
