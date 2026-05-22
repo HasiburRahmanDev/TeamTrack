@@ -4,7 +4,7 @@ import jwt, { type JwtPayload } from "jsonwebtoken";
 import config from "../config";
 import { pool } from "../db";
 
-const auth = () => {
+const auth = (...roles: any) => {
   return async (req: Request, res: Response, next: NextFunction) => {
     const token = req.headers.authorization;
     if (!token) {
@@ -21,7 +21,17 @@ const auth = () => {
         `,
       [decoded.email],
     );
+    const user = userData.rows[0];
 
+    if (userData.rows.length === 0) {
+      sendResponse(res, 404, "user not found");
+    }
+
+    if (roles.length && !roles.includes(user.role)) {
+      sendResponse(res, 403, "forbidden!!");
+    }
+
+    req.user = decoded;
     next();
   };
 };

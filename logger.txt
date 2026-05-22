@@ -26,3 +26,63 @@ Method -> POST, URL -> /api/issues, Time -> 1779470746942 localhost
 Method -> POST, URL -> /api/issues, Time -> 1779471048107 localhost
 
 Method -> POST, URL -> /api/issues, Time -> 1779472787774 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779473523795 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779473850287 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779474598353 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779474621781 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779474724196 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779474769394 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779474788797 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779475646083 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779475686387 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779475707085 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779476222914 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779476237025 localhost
+
+Method -> POST, URL -> /api/auth/signup, Time -> 1779476263289 localhost
+
+Method -> POST, URL -> /api/auth/login, Time -> 1779476276606 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779476307509 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779477151451 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779477188990 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779477205408 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779478060796 localhost
+
+Method -> POST, URL -> /api/auth/login, Time -> 1779478081043 localhost
+
+Method -> POST, URL -> /api/auth/signup, Time -> 1779478096510 localhost
+
+Method -> POST, URL -> /api/auth/signup, Time -> 1779478102740 localhost
+
+Method -> POST, URL -> /api/auth/login, Time -> 1779478117929 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779478155636 localhost
+
+Method -> POST, URL -> /api/issues, Time -> 1779478182488 localhost
+
+Method -> GET, URL -> /api/issues, Time -> 1779479111839 localhost
+
+Method -> GET, URL -> /api/issues, Time -> 1779479125879 localhost
+
+Method -> GET, URL -> /api/issues, Time -> 1779479177847 localhost
+
+Method -> GET, URL -> /api/issues/20, Time -> 1779479665478 localhost
+
+Method -> GET, URL -> /api/issues/20, Time -> 1779479696260 localhost
