@@ -86,3 +86,57 @@ Method -> GET, URL -> /api/issues, Time -> 1779479177847 localhost
 Method -> GET, URL -> /api/issues/20, Time -> 1779479665478 localhost
 
 Method -> GET, URL -> /api/issues/20, Time -> 1779479696260 localhost
+
+Method -> PUT, URL -> /api/issues/20, Time -> 1779480817951 localhost
+
+Method -> PUT, URL -> /api/issues/20, Time -> 1779480939464 localhost
+
+Method -> PUT, URL -> /api/issues/20, Time -> 1779480990570 localhost
+
+Method -> PUT, URL -> /api/issues/2, Time -> 1779480998200 localhost
+
+Method -> PUT, URL -> /api/issues/2, Time -> 1779481034540 localhost
+
+Method -> GET, URL -> /api/issues/20, Time -> 1779481076309 localhost
+
+Method -> PUT, URL -> /api/issues/23, Time -> 1779481130950 localhost
+
+Method -> PUT, URL -> /api/issues/2000, Time -> 1779481165286 localhost
+
+Method -> GET, URL -> /api/issues/2, Time -> 1779481183624 localhost
+
+Method -> PUT, URL -> /api/issues/22, Time -> 1779481389666 localhost
+
+Method -> PUT, URL -> /api/issues/29953, Time -> 1779481396634 localhost
+
+Method -> PUT, URL -> /api/issues/29953, Time -> 1779482585317 localhost
+
+Method -> PUT, URL -> /api/issues/29953, Time -> 1779482640598 localhost
+
+Method -> POST, URL -> /api/auth/signup, Time -> 1779482685916 localhost
+
+Method -> POST, URL -> /api/auth/login, Time -> 1779482696074 localhost
+
+Method -> PUT, URL -> /api/issues/29953, Time -> 1779482713324 localhost
+
+Method -> PUT, URL -> /api/issues/21, Time -> 1779482719781 localhost
+
+Method -> PUT, URL -> /api/issues/15, Time -> 1779482746142 localhost
+
+Method -> DELETE, URL -> /api/issues/15, Time -> 1779483134879 localhost
+
+Method -> DELETE, URL -> /api/issues/17, Time -> 1779483160645 localhost
+
+Method -> DELETE, URL -> /api/issues/18, Time -> 1779483216107 localhost
+
+Method -> DELETE, URL -> /api/issues/18, Time -> 1779483252204 localhost
+
+Method -> POST, URL -> /api/auth/signup, Time -> 1779483290648 localhost
+
+Method -> POST, URL -> /api/auth/login, Time -> 1779483311790 localhost
+
+Method -> DELETE, URL -> /api/issues/18, Time -> 1779483325967 localhost
+
+Method -> DELETE, URL -> /api/issues/19, Time -> 1779483330805 localhost
+
+Method -> DELETE, URL -> /api/issues/19, Time -> 1779483394725 localhost
