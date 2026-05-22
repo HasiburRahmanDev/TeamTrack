@@ -3,12 +3,14 @@ import express, {
   type Request,
   type Response,
 } from "express";
-import { logger } from "./middleware/logger";
+import logger from "./middleware/logger";
 import { globalErrorHandler } from "./middleware/globalErrorHandler";
 import { authRoute } from "./modules/auth/auth.route";
+import CookieParser from "cookie-parser";
+import { issueRoute } from "./modules/issues/issues.route";
 
 const app: Application = express();
-
+app.use(CookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(logger);
@@ -17,5 +19,6 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.use("/api/auth", authRoute);
+app.use("/api/issues", issueRoute);
 
 export default app;
