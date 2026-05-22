@@ -7,7 +7,7 @@ export const sendResponse = (
   data?: unknown,
 ): void => {
   res.status(statusCode).json({
-    success: statusCode < 400, // true if status < 400, false otherwise
+    success: statusCode < 400,
     message,
     data,
   });

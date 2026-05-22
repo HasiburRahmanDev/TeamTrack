@@ -140,3 +140,21 @@ Method -> DELETE, URL -> /api/issues/18, Time -> 1779483325967 localhost
 Method -> DELETE, URL -> /api/issues/19, Time -> 1779483330805 localhost
 
 Method -> DELETE, URL -> /api/issues/19, Time -> 1779483394725 localhost
+
+Method -> POST, URL -> /api/auth/signup, Time -> 1779483968081 localhost
+
+Method -> POST, URL -> /api/auth/login, Time -> 1779483983709 localhost
+
+Method -> PUT, URL -> /api/issues/15, Time -> 1779484184041 localhost
+
+Method -> PUT, URL -> /api/issues/15, Time -> 1779484304754 localhost
+
+Method -> PUT, URL -> /api/issues/15, Time -> 1779484414240 localhost
+
+Method -> PUT, URL -> /api/issues/15, Time -> 1779484947205 localhost
+
+Method -> POST, URL -> /api/auth/login, Time -> 1779486436354 localhost
+
+Method -> GET, URL -> /api/issues/2, Time -> 1779486441502 localhost
+
+Method -> GET, URL -> /api/issues, Time -> 1779486448464 localhost
