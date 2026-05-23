@@ -128,4 +128,4 @@ http://localhost:<PORT>
 ## Notes
 
 - The server initializes the database tables automatically on startup.
-- The repository currently does not ship with a live URL.
+
