@@ -2,7 +2,7 @@
 
 ## Live URL
 
-- Not deployed / N/A
+- https://team-track-two.vercel.app/
 
 ## Overview
 
